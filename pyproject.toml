@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ML-classification-app"
+version = "1.0.0"
+description = "ml classification streamlit app"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.0.0",
+    "ipython>=8.26.0",
+    "pandas>=2.2.2",
+    "numpy<=1.26.4",
+    "matplotlib>=3.9.1",
+    "seaborn>=0.13.2",
+    "scikit-learn>=1.5.1",
+    "imblearn>=0.0",
+    "streamlit>=1.37.0",
+    "plotly>=5.22.0",
+    "joblib>=1.4.2",
+    "lime>=0.2.0.1",
+    "shap>=0.42.0"
+]
+
+# In the terminal: pip install -e .
